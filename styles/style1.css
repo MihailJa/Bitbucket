@@ -1,0 +1,18 @@
+body{
+background-color: #f7f7f7;
+
+}
+nav{
+    color:cornsilk;
+    background-color: #1e2547;
+}
+footer{
+    background-color: #c9c5c5;
+
+}
+.description{
+    color:crimson;
+}
+.price{
+    font-weight: bold;
+}
