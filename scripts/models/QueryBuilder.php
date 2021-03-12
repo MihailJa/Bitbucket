@@ -1,8 +1,8 @@
 <?php
 
 
-include_once "ProductBuilder.php";
-include_once "error.php";
+require_once("ProductBuilder.php");
+/*include_once "error.php";*/
 
 
 class QueryBuilder 
@@ -92,21 +92,23 @@ class QueryBuilder
         $this->_setProduct($this->product)->_setTable()->_setQueryStringSelect();      
         $result = $this->connector->query($this->query);
        
-        if($result){       
+        if($result){    
+           $data_array = $result->fetch_all($resulttype = MYSQLI_ASSOC);     
+            /*
                while ($rec = $result->fetch_assoc()) {                   
                   $this->product->setValues($rec);                            
-                  echo $this->product->printCard();                   
-               }                          
+                  echo $this->product->printCard(); 
+                                    
+               }          */ 
+               return   $data_array;          
         }else 
         {              
                  return false;            
         }
         }  
            
-      public function selectAll(array $products_type){ 
-          foreach($products_type as $product_type)        
-           $p1 = $this->_select($product_type);
-           
+      public function selectAll($product_type){               
+          return $this->_select($product_type);           
          /*  $p2 = $this->_select("Book");
            $p3 = $this->_select("Furniture");    */               
            /* if(!$p1 && !$p2 && !$p3)

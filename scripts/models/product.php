@@ -1,5 +1,5 @@
 <?php
-include "error.php";
+/*include "error.php";*/
 
 
 abstract class Product
