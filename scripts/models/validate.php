@@ -1,6 +1,7 @@
 <?php
 
 
+
 class CheckFields {
 //function for check if the fields are filled 
 static function is_filled($data)                
