@@ -1,6 +1,7 @@
 <?php
 
 
+
 class Controller_AddProduct extends Controller
 {
     private $data;
