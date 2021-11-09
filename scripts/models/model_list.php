@@ -2,6 +2,7 @@
 
 class Model_ProductList extends Model
 
+	
 {   //return array of products   
 	public function get_data($product_type)
 	{	             
