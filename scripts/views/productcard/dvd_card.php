@@ -1,6 +1,7 @@
 <?php
 foreach($dataDvd as $item)
 { 
+  
   $product_id = 'DVDs-'  . $item['id'];
   $sku = $item['sku'];
   $title = $item['title'];
