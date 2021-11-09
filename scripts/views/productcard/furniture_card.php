@@ -1,6 +1,7 @@
 <?php
 foreach($dataFurniture as $item)
 {
+  
   $product_id = 'Furniture-'  . $item['id'];
   $sku = $item['sku'];
   $title = $item['title'];
