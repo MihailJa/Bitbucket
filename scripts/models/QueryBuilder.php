@@ -2,7 +2,7 @@
 
 
 require_once("ProductBuilder.php");
-/*include_once "error.php";*/
+
 
 
 class QueryBuilder 
