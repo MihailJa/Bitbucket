@@ -5,6 +5,7 @@ include "us.php"; // constants SERVER_NAME, USER_NAME, PASS, DB_NAME for connect
 
 
 
+
 class DBConnector extends mysqli
 {
 	 public function __construct() {
