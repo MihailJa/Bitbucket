@@ -5,8 +5,6 @@ include "Furniture.php";
 include "Book.php";
 
 
-
-
 class ProductBuilder
 {
     private $product;
