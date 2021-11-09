@@ -3,6 +3,7 @@
 class Model_AddProduct extends Model
 
 {   //return array of products   
+	
    
 	public function get_data($product_data)
 	{	   
