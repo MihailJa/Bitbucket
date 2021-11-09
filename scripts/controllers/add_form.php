@@ -1,5 +1,6 @@
 <?php
 
+
 class Controller_AddProductPage extends Controller
 {
 
