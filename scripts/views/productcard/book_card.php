@@ -1,7 +1,8 @@
 <?php
 foreach($dataBook as $item)
 {  
-  $product_id = 'Books-'  . $item['id'];
+  
+  $product_id = 'Books-'  . $item['id'];  
   $sku = $item['sku'];
   $title = $item['title'];
   $price = $item['price'];
