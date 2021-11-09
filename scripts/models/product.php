@@ -2,6 +2,7 @@
 /*include "error.php";*/
 
 
+
 abstract class Product
 {
     private $id='';
