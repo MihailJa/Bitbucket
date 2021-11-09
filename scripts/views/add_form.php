@@ -6,6 +6,7 @@
         <form class="d-flex" action="add.php" method="POST" name="add_form">
           <button class="btn btn-outline-success mr-2" type="submit" onclick="return validateForm()">Save</button>
           <button class="btn btn-outline-success" type="reset" onclick="document.location='index.php'"  >Cancel</button>
+            
         
       
     </nav>
