@@ -6,6 +6,7 @@
 	<style type=text/css\>
 	body {
 		background-color:#cecece;
+		
 		color: red;		
 	}
 	h1,p{
