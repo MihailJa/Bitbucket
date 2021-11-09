@@ -7,6 +7,7 @@
           </form>
           <form action="delete.php" method="post">
           <button class="btn btn-outline-success" type="submit" name="delete" >Mass delete</button>      
+              
      </div>
     </nav>
   </header>
