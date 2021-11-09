@@ -2,6 +2,7 @@
 class Controller_Error extends Controller
 {
     
+	
     function __construct()
 	{		
 		$this->view = new View();
