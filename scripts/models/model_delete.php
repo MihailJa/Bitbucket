@@ -3,6 +3,7 @@
 class Model_ProductDelete extends Model
 
 {   //return array of products   
+	
    
 	public function get_data($products)
 	{	   
