@@ -3,6 +3,7 @@ include_once "product.php";
 include_once "validate.php";
 
 class Furniture extends Product
+    
 {  
     private $height='';
     private $width='';
