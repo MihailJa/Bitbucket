@@ -2,6 +2,7 @@
 include_once "product.php";
 include_once "validate.php";
 
+
 class DVD extends Product
 {    
    
